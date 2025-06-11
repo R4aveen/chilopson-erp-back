@@ -25,9 +25,7 @@ class EmpresaController extends Controller
         //
     }
 
-    /**
-     * Display the specified resource.
-     */
+
     public function show($id)
     {
         // Usamos Auth::user() en lugar de auth()->user()

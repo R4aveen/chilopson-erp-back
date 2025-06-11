@@ -18,6 +18,8 @@ return Application::configure(basePath: dirname(__DIR__))
         //     'rol'      => \App\Http\Middleware\CheckRol::class,
         //     'verificar.activacion' => \App\Http\Middleware\VerificarActivacion::class, 
         // ]);
+        //Nicoide
+        //falta el middleware de autenticación
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //
